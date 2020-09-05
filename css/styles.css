@@ -1,0 +1,92 @@
+/* styles for index.html */
+
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+/* End Google Fonts import */
+
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  position: relative;
+}
+
+header, footer {
+  background-color: #C60316;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 0.3em white solid;
+}
+
+#header-image {
+  margin: 0 auto;
+  width: 30%;
+  max-width: 15em;
+}
+
+header h3 {
+  font-size: 2.5rem;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-family: 'Bungee', cursive;
+}
+
+#container-main {
+  width: 95%;
+  height: 40rem;
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding-bottom: 2.5rem;
+}
+
+.coffee-button {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;  
+}
+article {
+  margin: 0.1em;
+  padding-top: 0.5em;
+}
+
+article h3 {
+  font-family: 'Bungee', cursive;
+  color: #C60316;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.3rem;
+}
+
+footer p {
+  font-family: 'Bungee', cursive;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #D17D5C;
+}
