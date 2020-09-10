@@ -27,3 +27,6 @@ Begin transition to Bootstrap 4
 
 8 Sept 2020
 Transition aboutme.html into Bootstrap 4
+
+10 Sept 2020
+Had an idea to adopt a 2/3 column design like Twitter. Looking into how to accomplish it.
