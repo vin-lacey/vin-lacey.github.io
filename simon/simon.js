@@ -1,1 +1,0 @@
-// simon's javascript
