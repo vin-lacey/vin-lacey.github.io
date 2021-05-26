@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags for reactive design and charset -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- My stylesheet -->
+    <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/meico.png">
+    <title>Coding</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-toggleable-sm bg-danger navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link active">Coding</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Hi CS50! -->
+    <div class="container mt-5 mb-5">
+        <h1 class="display-4 text-center" id="coding-title">Coding</h1>
+        <p class="lead text-center">Languages I have learned in <span class="cs50">CS50</span></p>
+    </div>
+    <!-- Column sections -->
+    <div class="container">
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container">
+            <h4 class="text-center">Click on each programming language to reveal "Hello World"</h4>
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 id="ctitle">C <img src="images/C.svg" width="32" height="32"></h3>
+                    <div class="container hidden" id="cblock">
+                        <code class="codeblocks">
+                            #include &lt;stdio.h&gt;<br>
+                            int main(void)<br>
+                            {<br>
+                                printf("Hello World!\n");<br>
+                            }<br>
+                        </code>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="pytitle">Python <img src="images/python.svg" width="32" height="32"></h3>
+                    <div class="container hidden codeblocks" id="pyblock">
+                        <code class="codeblocks">
+                            print("Hello World!")
+                        </code>
+                    </div>
+
+
+                </div>
+                <div class="col-sm-4">
+                    <h3 id="jstitle">JavaScript <img src="images/javascript.svg" width="32" height="32"></h3>
+                    <div class="container hidden codeblocks" id="jsblock">
+                        <code class="codeblocks">
+                            console.log("Hello World!")
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Your JavaScript, my liege -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="js/codereveal.js"></script>
+</body>
+
+</html>

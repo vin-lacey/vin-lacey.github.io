@@ -1,0 +1,54 @@
+/* Google Font Imports */
+/* Kaushan for main page titles */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* "Press start 2 p" for coding page title */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* "Source Sans Pro" for the majority of the project*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    /* Prefered font stack */
+    font-family: 'Source Sans Pro', Helvetica, 'Open Sans', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+/* Crimson background for jumbotron and navbar */
+.jumbotron, .navbar {
+    background-color: #C90016 !important;
+}
+
+.page_welcome_title {
+    /* Fancy font for page title */
+    font-family: 'Kaushan Script', cursive;
+    color: #C90016;
+}
+
+#coding-title {
+    font-family: 'Press Start 2P', monospace;
+    color: #C90016;
+}
+
+.white_index_font {
+    color: white !important;
+}
+
+.cs50 {
+    color: #C90016;
+    font-style: italic;
+}
+
+hr {
+    border: 1px solid #C90016;
+}
+
+.hidden {
+    display: none;
+    background-color: #232B2B;
+    padding: 0.5em;
+}
+
+.codeblocks {
+    color: #FFFFF2;
+    font-family: monospace;
+    font-size: 1rem;
+}

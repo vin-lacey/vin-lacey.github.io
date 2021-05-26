@@ -3,26 +3,23 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags for reactive design and charset -->
     <meta charset="utf-8">
-    <title>Vin's web page</title>
-    <link rel="icon" type="image/jpg" href="images/meicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- My CSS -->
 
-    <!-- GNU Terry Pratchett -->
-    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-
-    <!-- meta description -->
-    <meta name="description" content="Vin Lacey's web page. A landing page for Vin Lacey's web development portfolio.">
+    <!-- My stylesheet -->
+    <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/meico.png">
+    <title>About Me</title>
 </head>
 
 <body>
-
+    <!-- Hi CS50! -->
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md bg-danger navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-toggleable-sm bg-danger navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -31,117 +28,60 @@
                 <div class="navbar-nav">
                     <a class="nav-link" href="index.html">Home</a>
                     <a class="nav-link active">About Me</a>
+                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="coding.html">Coding</a>
                 </div>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
 
-    <!-- Bootstrap jumbotron title / welcome-->
-    <div class="jumbotron bg-danger text-center text-white">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <div class="container">
-                    <img src="images/8bitvin.jpg" alt="Vin's image" class="img-fluid rounded" width=50%>
+    <div class="container mt-5">
+        <h1 class="page_welcome_title display-2">About Vin</h1>
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Click the image for an easter egg -->
+                    <img src="images/me.jpg" class="img-fluid rounded mb-2" alt="A picture of Vin Lacey" onclick="clickPhoto()">
                 </div>
-            </div>
-            <div class="col-md align-self-center">
-                <div class="container">
-                    <h3>About Vin</h3>
+                <div class="col-md-8">
+                    <div class="container">
+                        <h4 class="page_welcome_title mb-2">Hello World!</h4>
+                    </div>
+                    <p>I’m Vin Lacey, a <a href="https://cs50.harvard.edu/x/2020/" target="_blank">CS50</a> student and this is the homepage I created for the web track.</p>
+                    <p>I enjoy <a href="https://github.com/vin-lacey" target="_blank">coding</a> and <a href="https://www.strava.com/athletes/16521816" target="_blank">running</a>. I have several running medals now including 2 half marathon medals.
+                        I’m a <a href="https://en.wikipedia.org/wiki/Vegetarianism" target="_blank">vegetarian</a>. I live in <a href="https://www.visit-nottinghamshire.co.uk/" target="_blank">Nottingham</a>, England but I want to live in <a
+                            href="https://www.visitscotland.com/" target="_blank">Scotland</a> and I plan on moving there in the future.</p>
+                    <p>I was made redundant a couple of years ago so I looked around at retraining and I discovered CS50. I wanted to pick up a knowledge of computer science and programming as I had some prior experience as a child in the 1980s
+                        programming with <a href="https://www.justbasic.com/" target="_blank">BASIC</a>. In the future, I would like to study machine learning and pick up other languages. <a href="https://golang.org/" target="_blank">Go</a> looks
+                        interesting!</p>
+                    <p>Thank you for reading! 😊</p>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <main>
-            <article>
-                <h3>Welcome!</h3>
-
-                <p>I'm Vin and I made this website to link to my projects and other online work.</p>
-
-                <p>Please feel feel to check out my <a href="https://github.com/vin-lacey" target="_blank">GitHub</a></p>
-                <article>
-                    <h3>About me</h3>
-
-                    <p>I have been learning web development for over a year and I am now very comfortable with making web pages using HTML and CSS. In the future I will be expanding my knowledge to make more dynamic web projects using
-                        technologies such as React and Python.
-                    <p>
-                    <p>React <a href="react/react.html" target="_blank">test</a> page coming soon</p>
-
-                </article>
-
-            </article>
-            <!-- Coffee button -->
-            <div class="coffee-button">
-                <style>
-                    .bmc-button img {
-                        height: 34px !important;
-                        width: 35px !important;
-                        margin-bottom: 1px !important;
-                        box-shadow: none !important;
-                        border: none !important;
-                        vertical-align: middle !important;
-                    }
-
-                    .bmc-button {
-                        padding: 7px 10px 7px 10px !important;
-                        line-height: 35px !important;
-                        height: 51px !important;
-                        min-width: 217px !important;
-                        text-decoration: none !important;
-                        display: inline-flex !important;
-                        color: #ffffff !important;
-                        background-color: #FF5F5F !important;
-                        border-radius: 5px !important;
-                        border: 1px solid transparent !important;
-                        padding: 7px 10px 7px 10px !important;
-                        font-size: 22px !important;
-                        letter-spacing: 0.6px !important;
-                        box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
-                        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-                        margin: 0 auto !important;
-                        font-family: 'Cookie', cursive !important;
-                        -webkit-box-sizing: border-box !important;
-                        box-sizing: border-box !important;
-                        -o-transition: 0.3s all linear !important;
-                        -webkit-transition: 0.3s all linear !important;
-                        -moz-transition: 0.3s all linear !important;
-                        -ms-transition: 0.3s all linear !important;
-                        transition: 0.3s all linear !important;
-                    }
-
-                    .bmc-button:hover,
-                    .bmc-button:active,
-                    .bmc-button:focus {
-                        -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-                        text-decoration: none !important;
-                        box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
-                        opacity: 0.85 !important;
-                        color: #ffffff !important;
-                    }
-                </style>
-                <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/vinlacey"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-                        alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container" id="secret">
+            <p class="lead text-center">Good work! Finding easter eggs is always fun, don't you think?</p>
+            <div class="container col-md-6 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item mb-2" src="https://www.youtube.com/embed/Osk2HQlljOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <!-- end coffee button -->
-        </main>
-        <!-- footer -->
-        <footer class="text-center">
-            <p>&copy; Vin Lacey MMXX</p>
-        </footer>
+            <div class="container">
+                <hr>
+            </div>
+
+        </div>
     </div>
 
-
-
-
-
-    <!-- Optional JavaScript -->
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Your JavaScript, my liege -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/secret.js"></script>
 </body>
 
 </html>
