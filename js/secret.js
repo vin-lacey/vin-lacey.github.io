@@ -1,7 +1,7 @@
 // the secret sauce
 const secretId = document.getElementById('secret')
 
-secretId.style.display = 'none';          // Hide on page load
+secretId.style.display = 'none'          // Hide on page load
 
 let imageMe = document.getElementById("image-me")
 
