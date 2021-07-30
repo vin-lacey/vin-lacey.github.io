@@ -54,7 +54,7 @@ h2 {
   display: block;
   font-weight: bold;
   font-size: 2.9rem;
-  color: #ffe359;
+  color: #c40055;
 }
 
 .job-title {
@@ -65,7 +65,7 @@ h2 {
 
 img {
   max-width: 60%;
-  border: 0.6em solid #ffe359;
+  border: 0.6em solid #c40055;
   border-radius: 5%;
   margin-bottom: 1.2rem;
 }
