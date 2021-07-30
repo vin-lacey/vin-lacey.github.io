@@ -3,6 +3,6 @@
 
 let factOutput = document.getElementById('random-fact')
 
-fetch('https://uselessfacts.jsph.pl/today.json?language=en')
+fetch('https://uselessfacts.jsph.pl/random.json?language=en')
   .then(response => response.json())
   .then(data => factOutput.textContent = data.text);
