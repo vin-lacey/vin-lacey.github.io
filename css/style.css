@@ -50,17 +50,15 @@ h2 {
   margin-bottom: 0.5em;
 }
 
-.myName {
-  display: block;
-  font-weight: bold;
-  font-size: 2.9rem;
-  color: #c40055;
-}
-
 .highlight {
   display: block;
+  font-weight: bold;
   color: #c40055;
-  font-size: 1.9rem;
+  font-size: 2rem;
+}
+
+.myName {
+  font-size: 2.9rem;
 }
 
 img {
