@@ -84,7 +84,7 @@ img {
 
 .btn:focus,
 .btn:hover {
-  background-color: #DE4E8D;
+  background-color: #252525;
   border-radius: 10px;
 }
 
@@ -93,16 +93,15 @@ img {
     margin: 0 auto;
     max-width: 80%;
     display: flex;
-    align-items: stretch;
   }
 
-  .flex-section div {
+  .flex-section section {
     width: 49%;
   }
 
   .flex-section .container {
-    max-width: 90%;
-    padding: 5rem;
+    max-width: 80%;
+    padding: 2rem;
   }
 
   .flex-section .inverse {
