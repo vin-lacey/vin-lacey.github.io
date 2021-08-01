@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- Google Fonts -->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="css/style.css" rel="stylesheet">
-      <link rel="icon" href="images/favicon.ico">
-      <title>Hello World! | Vin Lacey</title>
-   </head>
-   <body>
-      <!-- Section -->
-      <header class="inverse">
-         <div class="container">
-            <h1>Hello, my name is <span class="highlight myName">Vin</span></h1>
-            <img src="images/meBW.jpeg" alt="portrait of Vin Lacey">
-         </div>
-      </header>
-      <div class="flex-section">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Hello World! | Vin Lacey</title>
+    </head>
+    <body>
         <!-- Section -->
-        <section>
-           <div class="container">
-              <h2>I am a <span class="highlight">Web Developer</span></h2>
-              <p>I enjoy working with HTML5 / CSS / JavaScript & Python.</p>
-              <p>Currently I am learning Vue.</p>
-              <a href="https://github.com/vin-lacey" class="btn" target='_blank'>See my GitHub</a>
-           </div>
-        </section>
+        <header class="inverse">
+            <div class="container">
+                <h1>Hello, my name is <span class="highlight myName">Vin</span></h1>
+                <img src="images/meBW.jpeg" alt="portrait of Vin Lacey">
+            </div>
+        </header>
+        <div class="flex-section">
+            <!-- Section -->
+            <section>
+                <div class="container">
+                    <h2>I am a <span class="highlight">Web Developer</span></h2>
+                    <p>I enjoy working with HTML5 / CSS / JavaScript & Python.</p>
+                    <p>Currently I am learning Vue.</p>
+                    <a href="https://github.com/vin-lacey" class="btn" target='_blank'>See my GitHub</a>
+                </div>
+            </section>
+            <!-- Section -->
+            <section class="inverse">
+                <div class="container">
+                    <h2>Random Useless <span class="highlight">Fact</span></h2>
+                    <article>
+                        <p id="random-fact">There's no fact today, unfortunately</p>
+                        <span class="btn" id="fact-button">See Another Fact</span>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!-- end flex section -->
         <!-- Section -->
-        <section class="inverse">
-           <div class="container">
-              <h2>Random Useless <span class="highlight">Fact</span></h2>
-              <article>
-                <p id="random-fact">There's no fact today, unfortunately</p>
-                <span class="btn" id="fact-button">See Another Fact</span>
-              </article>
-           </div>
+        <section id="projects">
+            <div class="container">
+                <h2>More <span class="highlight">Projects</span></h2>
+                <article>
+                    <a href="/projects/projects.html" class="btn" target="_blank">See more projects</a>
+                </article>
+            </div>
         </section>
-      </div> <!-- end flex section -->
-      <!-- Section -->
-      <section id="projects">
-         <div class="container">
-            <h2>More <span class="highlight">Projects</span></h2>
-            <article>
-              <a href="/projects/projects.html" class="btn" target="_blank">See more projects</a>
-            </article>
-         </div>
-      </section>
-      <script src='scripts/fact.js'></script>
-   </body>
+        <script src='scripts/fact.js'></script>
+    </body>
 </html>
