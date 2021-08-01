@@ -98,6 +98,7 @@ img {
     color: #252525;
     background-color: white;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -124,6 +125,24 @@ img {
   .flex-section .inverse h2 {
     border-top: 0.4em solid #252525;
     border-bottom: 0.4em solid #252525;
+  }
+
+  #projects {
+    background: #252525;
+  	color: white;
+  }
+  #projects h2 {
+    border-top: 0.4em solid white;
+    border-bottom: 0.4em solid white;
+  }
+  #projects .btn:focus,
+  #projects .btn:hover {
+    color: #252525;
+    background-color: white;
+  }
+
+  #projects .container {
+    max-width: 30%;
   }
 
 }

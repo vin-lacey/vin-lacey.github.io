@@ -21,7 +21,7 @@
       <div class="flex-section">
         <!-- Section -->
         <section>
-           <div class="container info-container">
+           <div class="container">
               <h2>I am a <span class="highlight">Web Developer</span></h2>
               <p>I enjoy working with HTML5 / CSS / JavaScript & Python.</p>
               <p>Currently I am learning Vue.</p>
@@ -30,15 +30,24 @@
         </section>
         <!-- Section -->
         <section class="inverse">
-           <div class="container fact-container">
+           <div class="container">
               <h2>Random Useless <span class="highlight">Fact</span></h2>
               <article>
                 <p id="random-fact">There's no fact today, unfortunately</p>
-                <a href="/projects/projects.html" class="btn" target="_blank">See more projects</a>
+                <span class="btn" id="fact-button">See Another Fact</span>
               </article>
            </div>
         </section>
-      </div>
+      </div> <!-- end flex section -->
+      <!-- Section -->
+      <section id="projects">
+         <div class="container">
+            <h2>More <span class="highlight">Projects</span></h2>
+            <article>
+              <a href="/projects/projects.html" class="btn" target="_blank">See more projects</a>
+            </article>
+         </div>
+      </section>
       <script src='scripts/fact.js'></script>
    </body>
 </html>
