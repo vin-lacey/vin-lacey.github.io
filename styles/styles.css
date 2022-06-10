@@ -6,7 +6,7 @@
 body {
     box-sizing: border-box;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    font-size: 4.5vh;
+    font-size: 4.2vh;
 }
 
 .container {
@@ -29,15 +29,13 @@ body {
     padding: 5em;
 }
 
-a {
+a,
+a:visited {
+    color: #0057B8;
     text-decoration: none;
 }
 
 a:hover,
 a:focus {
     text-decoration: underline;
-}
-
-a:visited {
-    color: #0057B8;
 }
