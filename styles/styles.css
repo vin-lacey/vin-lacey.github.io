@@ -15,20 +15,20 @@ body {
     flex-direction: column;
 }
 
-.title,
-.contents {
+.blue-section,
+.yellow-section {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50vh;
 }
 
-.title {
+.blue-section {
     background-color: #0057B8;
     color: #FFD700;
 }
 
-.contents {
+.yellow-section {
     background-color: #FFD700;
     color: #0057B8;
 }
