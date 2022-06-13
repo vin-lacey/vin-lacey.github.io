@@ -17,8 +17,7 @@ echo "Hello World!";
             <form>
                 <div class="container">
                     <form id="contact" action="" method="post">
-                        <h3>Quick Contact</h3>
-                        <h4>Contact us today, and get reply with in 24 hours!</h4>
+                        <h3>Contact me</h3>
                         <fieldset>
                             <input placeholder="Your name" type="text" tabindex="1" required autofocus>
                         </fieldset>
