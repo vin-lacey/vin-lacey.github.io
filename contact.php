@@ -13,22 +13,17 @@
     <div class="container">
         <div class="form">
             <div class="form-container">
-                <form id="contact" action="formsubmit.php" method="post">
-                    <h3>Contact me</h3>
-                    <div class="form-flex">
-                        <div class="form-input-field">
-                            <input placeholder="Your name" type="text" tabindex="1" id="name" required autofocus>
-                        </div>
-                        <div class="form-input-field">
-                            <input placeholder="Your Email Address" type="email" id="email" tabindex="2" required>
-                        </div>
-                        <div class="form-input-field">
-                            <textarea placeholder="Type your Message Here...." id="message" tabindex="3" required></textarea>
-                        </div>
-                        <div class="form-button">
-                            <button name="submit" type="submit" id="contact-submit">Submit</button>
-                        </div>
+                <form action="action.php" method="post">
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Name" required />
                     </div>
+                    <div>
+                        <input type="email" id="email" name="email" placeholder="Email address" required />
+                    </div>
+                    <div>
+                        <textarea placeholder="Type your Message Here...." id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
