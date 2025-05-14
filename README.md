@@ -12,8 +12,6 @@ Visit the live website: [https://vin-lacey.github.io](https://vin-lacey.github.i
 - `projects.html`: Portfolio of projects
 - `styles/`: CSS stylesheets
 - `images/ico/`: Favicon and icons
-- `contact.php`: Contact form handler
-- `formsubmit.php`: Form submission processing
 
 ## 🚀 Getting Started
 
